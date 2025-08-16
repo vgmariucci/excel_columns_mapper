@@ -1,201 +1,294 @@
-# Excel Column Mapper & Data Transfer
+# Excel Column Mapper & Data Transfer Tool
 
-A Python GUI application that enables easy column mapping and data transfer between Excel files. This tool simplifies the process of copying data from one Excel file to another by providing an intuitive interface for mapping columns between source and destination files.
+A modern, user-friendly Python GUI application for mapping and transferring data between Excel files. Built with a beautiful Azure-inspired theme and comprehensive functionality for seamless data migration.
 
-## Features
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 
-### 🔄 **Column Mapping**
-- Interactive mapping between source and destination Excel file columns
-- Visual column mapping with dropdown selection
-- Search functionality for quick column finding
+## ✨ Features
+
+### 🎨 **Modern User Interface**
+- Beautiful Azure-inspired theme with light/dark mode support
+- Responsive design with modern styling
+- Intuitive tabbed interface for organized workflow
+- Real-time progress tracking with visual feedback
+
+### 🔄 **Advanced Column Mapping**
+- Interactive drag-and-drop style column mapping interface
+- Visual preview of source data with sample values
 - Real-time mapping validation and preview
+- Smart column suggestion and matching
 
-### 📊 **Data Preview**
-- Display sample data from source columns
-- Visual confirmation of column mappings
-- Source column checkbox-style interface with mapping indicators
+### 📊 **Data Management**
+- Support for Excel (.xlsx, .xls) and CSV files
+- Handles files with different row counts intelligently
+- Preserves data types during transfer
+- Comprehensive error handling and validation
+
+### 📈 **Statistics & Analytics**
+- Built-in usage statistics tracking
+- File processing counters
+- Mapping creation analytics
+- Session completion tracking
 
 ### 📝 **Mapping History**
 - Automatic saving of all mapping configurations
-- Load previous mappings from history
-- View complete mapping history with timestamps
-- Reuse successful mapping configurations
+- Load and reuse previous successful mappings
+- Complete history browser with timestamps
+- Compatibility checking for historical mappings
 
-### 🔍 **Smart Search**
-- Type-ahead search in column mapping dropdowns
-- Case-insensitive column matching
-- Filtered results as you type
+### 🌓 **Theme System**
+- Light and dark mode support
+- Azure-inspired modern design
+- Customizable UI components
+- Smooth theme transitions
 
-### 💾 **Data Transfer**
-- Copy mapped data from source to destination structure
-- Handle files with different row counts
-- Save results to new Excel files
-- Preserve original file integrity
+## 🚀 Installation
 
-## Requirements
+### Prerequisites
+- Python 3.12 or higher
+- pip package manager
 
-- Python 3.12+
-- numpy
-- pandas
-- tkinter (usually included with Python)
-- pytz
-- six
-- tzdata
-- openpyxl (for Excel file handling)
+### Quick Setup
 
-## Installation
-
-1. **Clone or download the repository**
+1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd excel-column-mapper
+cd excel_columns_mapper
 ```
 
-2. **Install required dependencies**
+2. **Create virtual environment (recommended)**
+```bash
+python -m venv .venv
+
+# On Windows:
+.venv\Scripts\activate
+
+# On macOS/Linux:
+source .venv/bin/activate
+```
+
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run the application**
+4. **Run the application**
 ```bash
+cd app
 python main.py
 ```
 
-## Directory Structure
+## 📁 Project Structure
 
 ```
-excel-column-mapper/
+excel_columns_mapper/
 ├── app/
-    └── main.py                                 # Main application file
-├── data/                                       # Recommended folder for source Excel files
-        ├── source_files
-            └── source_file.xlsx
-        ├── destination_file
-            └── destination_file_template.xlsx
-├── log/                                        # for mapping history
-│   └── mapping_history.csv                     # Automatic mapping history log
-└── README.md                                   # This file
+│   ├── main.py                    # Main application entry point
+│   └── config.json               # Application configuration
+├── assets/                       # Application assets (logos, icons)
+├── data/                        # Sample and test data files
+├── log/                         # Application logs and history
+│   └── mapping_history.csv     # Automatic mapping history
+├── themes/
+│   └── azure.tcl               # Azure theme definition
+├── requirements.txt            # Python dependencies
+├── config.json               # Global configuration
+├── LICENSE                   # MIT License
+└── README.md                # This documentation
 ```
 
-## Usage Guide
+## 🎯 Usage Guide
 
-### 1. **Load Excel Files**
-- **Source File**: Click "Browse" next to "Source File" to select your data source Excel file
-- **Destination File**: Click "Browse" next to "Destination File" to select your target Excel file template
+### 1. **Launch Application**
+Run `python main.py` from the `app` directory to start the application.
 
-### 2. **Load Column Headers**
+### 2. **Select Files**
+- **Source File**: Click "Browse" to select your data source Excel/CSV file
+- **Destination File**: Click "Browse" to select your target template file
+
+### 3. **Load Column Headers**
 - Click "Load Column Headers" to analyze both files
-- View source columns with data samples in the left panel
+- View source columns with sample data in the left panel
 - See destination columns available for mapping in the right panel
 
-### 3. **Configure Column Mappings**
-- For each destination column, select the corresponding source column from the dropdown
-- Use the search functionality by typing in the dropdown to filter options
-- Mapped columns will show checkmarks (☑) in the source panel
-- Arrow indicators (←) show the mapping direction
+### 4. **Configure Mappings**
+- Use dropdown menus to map source columns to destination columns
+- Visual indicators show mapping status with checkmarks (✓)
+- Preview mappings in the "Data Preview" tab
 
-### 4. **Transfer Data**
+### 5. **Transfer Data**
 - Click "Copy Mapped Data" to execute the transfer
-- Choose where to save the updated file
-- Review the confirmation dialog showing all mappings
+- Choose output location and filename
+- Review confirmation dialog before proceeding
 
-### 5. **History Management**
-- **View Mapping History**: See all previous mapping operations
-- **Load from History**: Reuse a previous mapping configuration
-- **Clear Mappings**: Reset all current mappings
+### 6. **Manage History**
+- **View History**: Browse all previous mapping operations
+- **Load from History**: Restore compatible previous configurations
+- **Clear Mappings**: Reset current session
 
-## Interface Components
+## 🔧 Interface Overview
 
-### Source Panel (Left)
-- **Column List**: Shows all source file columns with checkboxes
-- **Data Samples**: Preview actual data from each column
-- **Mapping Indicators**: Visual confirmation of active mappings
+### Header Section
+- **Application Title**: Excel Column Mapper
+- **Theme Toggle**: Switch between light/dark modes (🌙/☀)
+- **Statistics Panel**: Real-time usage statistics
 
-### Mapping Panel (Right)
-- **Destination Columns**: List of target file columns
-- **Dropdown Selectors**: Choose source column for each destination
-- **Search Functionality**: Type to filter available source columns
+### Control Panel
+- **File Selection**: Browse and select source/destination files
+- **Action Buttons**: Load headers, copy data, manage mappings
+- **Progress Tracking**: Visual progress bars for operations
 
-### Control Buttons
-- **Load Column Headers**: Initialize file analysis
-- **Copy Mapped Data**: Execute the data transfer
-- **Clear Mappings**: Reset all mappings
-- **Load from History**: Restore previous configuration
-- **View Mapping History**: Browse past operations
+### Main Content Area
 
-## Advanced Features
+#### Column Mapping Tab
+- **Source Columns**: Tree view with sample data preview
+- **Mapping Interface**: Dropdown selectors for column mapping
+- **Visual Indicators**: Mapping status and direction arrows
+
+#### Data Preview Tab
+- **Mapping Summary**: Current column mapping configuration
+- **Sample Data**: Preview of data transfer results
+- **Validation**: Mapping compatibility checking
+
+### Status Bar
+- **Real-time Status**: Current operation status
+- **Progress Indicator**: Operation completion percentage
+
+## ⚙️ Configuration
+
+### Application Settings
+Edit `config.json` to customize:
+- Default directories
+- Theme preferences
+- Statistics tracking
+- History retention
+
+### Theme Customization
+The Azure theme can be customized by modifying `themes/azure.tcl`:
+- Color schemes
+- Font settings
+- Widget styling
+- Animation preferences
+
+## 📊 Features Deep Dive
+
+### Statistics Tracking
+The application automatically tracks:
+- Number of files processed
+- Total mappings created
+- Columns successfully mapped
+- Session completion rates
 
 ### Mapping History
-The application automatically maintains a detailed history of all mapping operations in `log/mapping_history.csv`. This includes:
-- Timestamp of operation
-- Source and destination file names
-- Output file name
-- Complete column mapping details
+All operations are logged with:
+- Timestamp and file information
+- Complete mapping configurations
+- Success/failure status
+- Compatibility metadata
 
-### Data Handling
-- **Variable Row Counts**: Automatically handles source files with more rows than destination templates
-- **Data Type Preservation**: Maintains original data types during transfer
-- **Error Recovery**: Comprehensive error handling with user-friendly messages
-
-### Search and Filter
-- **Real-time Search**: Type in any mapping dropdown to filter source columns
-- **Case-insensitive**: Matching works regardless of letter case
-- **Partial Matching**: Find columns with partial name matches
-
-## File Format Support
-
-- **Input**: Excel files (.xlsx, .xls)
-- **Output**: Excel files (.xlsx)
-- **Compatibility**: Works with files created in Excel, Google Sheets, LibreOffice Calc, etc.
-
-## Best Practices
-
-1. **Organize Files**: Keep source files in the `source_files/` directory for easy access
-2. **Backup Originals**: The tool preserves original files, but always keep backups
-3. **Test Mappings**: Review sample data before executing large transfers
-4. **Use History**: Save time by reusing successful mapping configurations
-5. **Verify Results**: Always check the output file to ensure data transferred correctly
-
-## Error Handling
-
-The application includes comprehensive error handling for:
+### Error Handling
+Comprehensive error management for:
 - Invalid file formats
-- Missing files
-- Corrupted Excel files
-- Memory limitations with large files
-- Column name mismatches
-- Write permission issues
+- Missing or corrupted files
+- Memory limitations
+- Permission issues
+- Column name conflicts
 
-## Troubleshooting
+## 🔍 Troubleshooting
 
 ### Common Issues
 
-**"Failed to load files" error**
-- Ensure Excel files are not open in other applications
+**Theme not loading properly**
+- Ensure `themes/azure.tcl` exists in the correct location
 - Check file permissions
-- Verify file format (.xlsx or .xls)
+- Restart the application
 
-**"No mapping history found"**
-- The `log/` directory is created automatically after first use
-- Mapping history is only saved after successful data transfers
-
-**Dropdown not showing all columns**
-- Clear the dropdown and click again to refresh the list
-- Check if search filtering is active
+**Files not loading**
+- Verify file format (.xlsx, .xls, .csv)
+- Ensure files are not open in other applications
+- Check read permissions
 
 **Memory issues with large files**
-- Close other applications to free up memory
-- Consider processing large files in smaller chunks
+- Close unnecessary applications
+- Use 64-bit Python for large datasets
+- Consider processing in smaller chunks
 
-## Contributing
+**Mapping history not saving**
+- Verify write permissions in `log/` directory
+- Check available disk space
+- Ensure application has proper file access
 
-Feel free to contribute to this project by:
-- Make a fork and be happy
-- Reporting bugs
-- Suggesting new features
-- Improving documentation
+### Performance Tips
+- Keep files under 100MB for optimal performance
+- Close preview tabs when working with large datasets
+- Use CSV format for very large files
+- Regularly clean mapping history
 
+## 🤝 Contributing
 
+We welcome contributions! Please:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+### Development Setup
+```bash
+# Clone your fork
+git clone <your-fork-url>
+cd excel_columns_mapper
+
+# Create development environment
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+
+# Install development dependencies
+pip install -r requirements.txt
+
+# Run the application
+cd app
+python main.py
+```
+
+## 📋 Requirements
+
+### Python Packages
+- `pandas` - Data manipulation and analysis
+- `tkinter` - GUI framework (usually included with Python)
+- `openpyxl` - Excel file handling
+- `pathlib` - Path manipulation
+- `json` - Configuration management
+- `datetime` - Timestamp handling
+
+### System Requirements
+- **Operating System**: Windows 10+, macOS 10.14+, or Linux
+- **Python**: 3.12 or higher
+- **Memory**: 4GB RAM minimum (8GB recommended for large files)
+- **Storage**: 100MB free space
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🏷️ Version History
+
+- **v1.1** - Current release with Azure theme and enhanced UI
+- **v1.0** - Initial release with basic mapping functionality
+
+## 📧 Support
+
+For support, feature requests, or bug reports:
+- Create an issue in the repository
+- Check existing documentation
+- Review troubleshooting section
+
+---
+
+**Author**: Open Source Community  
 **Version**: 1.0  
-**Last Updated**: August 13rd 2025  
-**Compatibility**: Python 3.12+, Windows/macOS/Linux
+**Last Updated**: August 2025  
+**Compatibility**: Python 3.12+, Cross-platform
