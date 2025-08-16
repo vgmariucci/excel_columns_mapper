@@ -41,6 +41,7 @@ A Python GUI application that enables easy column mapping and data transfer betw
 - pytz
 - six
 - tzdata
+- openpyxl (for Excel file handling)
 
 ## Installation
 

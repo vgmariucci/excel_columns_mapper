@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "theme": "azure",
+  "window": {
+    "width": 1400,
+    "height": 800,
+    "remember_size": true
+  },
+  "directories": {
+    "default_source": "./data/source_files",
+    "default_output": "./data/destination_files"
+  },
+  "statistics": {
+    "files_processed": 0,
+    "mappings_created": 0,
+    "total_columns_mapped": 0,
+    "sessions_completed": 0,
+    "last_activity": null
+  },
+  "last_updated": "2024-01-01T00:00:00"
+}
