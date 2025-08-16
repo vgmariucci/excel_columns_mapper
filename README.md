@@ -2,7 +2,7 @@
 
 A modern, user-friendly Python GUI application for mapping and transferring data between Excel files. Built with a beautiful Azure-inspired theme and comprehensive functionality for seamless data migration.
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 
