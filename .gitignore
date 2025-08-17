@@ -138,7 +138,7 @@ dmypy.json
 cython_debug/
 
 # Other project files and directories
+utils/
 data/
 log/
-utils/
 .csv
