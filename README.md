@@ -1,6 +1,6 @@
 # Excel Column Mapper & Data Transfer Tool
 
-A modern, user-friendly Python GUI application for mapping and transferring data between Excel files. Built with a beautiful Azure-inspired theme and comprehensive functionality for seamless data migration.
+A user-friendly Python GUI application for mapping and transferring data between Excel files. Built with Azure-inspired theme and comprehensive functionality for seamless data migration.
 
 ![Version](https://img.shields.io/badge/version-1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -8,8 +8,10 @@ A modern, user-friendly Python GUI application for mapping and transferring data
 
 ### **Screenshots**
 
+###### **Light Mode**
 ![app_gui_light_mode](assets/app_screenshots/app_gui_light_mode.png?raw=true)
 
+###### **Dark Mode**
 ![app_gui_dark_mode](assets/app_screenshots/app_gui_dark_mode.png?raw=true)
 
 ![app_gui_dark_mode_in_use](assets/app_screenshots/app_gui_dark_mode_in_use.png?raw=true)
