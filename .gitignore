@@ -139,6 +139,7 @@ cython_debug/
 
 # Other project files and directories
 utils/
+www/
 data/
 log/
 .csv
