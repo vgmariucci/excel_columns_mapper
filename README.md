@@ -93,6 +93,11 @@ excel_columns_mapper/
 │   └── mapping_history.csv     # Automatic mapping history
 ├── themes/
 │   └── azure.tcl               # Azure theme definition
+├── tests/
+│   └── run_test_simple.py            # Simple test runner for ExcelColumnMapper
+│   └── test_config.tcl               # Test configuration for ExcelColumnMapper
+│   └── test_excel_column_mapper.py   # Unit tests for ExcelColumnMapper application
+│   └── TESTING_README.md             # Testing documentation
 ├── requirements.txt            # Python dependencies
 ├── config.json               # Global configuration
 ├── LICENSE                   # MIT License
