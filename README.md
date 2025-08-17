@@ -294,6 +294,6 @@ For support, feature requests, or bug reports:
 ---
 
 **Author**: Open Source Community  
-**Version**: 1.0  
+**Version**: 1.1  
 **Last Updated**: August 2025  
 **Compatibility**: Python 3.12+, Cross-platform
