@@ -1,0 +1,18 @@
+# Testing framework
+pytest>=7.0.0
+pytest-mock>=3.6.1
+pytest-cov>=4.0.0
+
+# Test utilities
+mock>=4.0.3
+coverage>=6.0
+
+# Data handling (same as main app)
+pandas>=1.5.0
+openpyxl>=3.0.9
+
+# Temporary file handling
+tempfile
+
+# For GUI testing
+unittest.mock
