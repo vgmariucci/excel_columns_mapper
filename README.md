@@ -6,39 +6,6 @@ A user-friendly Python GUI application for mapping and transferring data between
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 
-### **Screenshots**
-
-##### **Light Mode**
-![app_gui_light_mode](assets/app_screenshots/app_gui_light_mode.png?raw=true)
-
-##### **Dark Mode**
-![app_gui_dark_mode](assets/app_screenshots/app_gui_dark_mode.png?raw=true)
-
-![app_gui_dark_mode_in_use](assets/app_screenshots/app_gui_dark_mode_in_use.png?raw=true)
-
-![app_gui_dark_mode_column_mapping](assets/app_screenshots/app_gui_dark_mode_column_mapping.png?raw=true)
-
-![app_gui_dark_mode_mapping_from_history](assets/app_screenshots/app_gui_dark_mode_mapping_from_history.png?raw=true)
-
-![app_gui_dark_mode_mapping_from_history](assets/app_screenshots/app_gui_dark_mode_mapping_from_history.png?raw=true)
-
-![app_gui_dark_mode_columns_mapped](assets/app_screenshots/app_gui_dark_mode_columns_mapped.png?raw=true)
-
-![app_gui_dark_mode_data_preview](assets/app_screenshots/app_gui_dark_mode_columns_mapped.png?raw=true)
-
-![app_gui_dark_mode_coppy_mapped_columns](assets/app_screenshots/app_gui_dark_mode_coppy_mapped_columns.png?raw=true)
-
-![app_gui_dark_mode_saving_the_file_with_mapped_columns](assets/app_screenshots/app_gui_dark_mode_saving_the_file_with_mapped_columns.png?raw=true)
-
-![app_gui_dark_mode_data_copied_sucess](assets/app_screenshots/app_gui_dark_mode_data_copied_sucess.png?raw=true)
-
-![history_file_for_mapped_columns](assets/app_screenshots/history_file_for_mapped_columns.png?raw=true)
-
-![used_source_file](assets/app_screenshots/used_source_file.png?raw=true)
-
-![used_destination_file_template](assets/app_screenshots/used_destination_file_template.png?raw=true)
-
-![destination_file_template_updated](assets/app_screenshots/destination_file_template_updated.png?raw=true)
 
 ## ✨ Features
 
@@ -77,6 +44,51 @@ A user-friendly Python GUI application for mapping and transferring data between
 - Azure-inspired modern design
 - Customizable UI components
 - Smooth theme transitions
+
+### **Screenshots**
+
+##### **Light Mode**
+![app_gui_light_mode](assets/app_screenshots/app_gui_light_mode.png?raw=true)
+
+##### **Dark Mode**
+![app_gui_dark_mode](assets/app_screenshots/app_gui_dark_mode.png?raw=true)
+
+##### **Uploading Source and Destination Template Files**
+![app_gui_dark_mode_in_use](assets/app_screenshots/app_gui_dark_mode_in_use.png?raw=true)
+
+##### **Columns Mapping With Dropdown Widgets**
+![app_gui_dark_mode_column_mapping](assets/app_screenshots/app_gui_dark_mode_column_mapping.png?raw=true)
+
+##### **Mapping From History File**
+![app_gui_dark_mode_mapping_from_history](assets/app_screenshots/app_gui_dark_mode_mapping_from_history.png?raw=true)
+
+##### **Columns Mapped**
+![app_gui_dark_mode_columns_mapped](assets/app_screenshots/app_gui_dark_mode_columns_mapped.png?raw=true)
+
+##### **Data Preview in Auxiliary Tab**
+![app_gui_dark_mode_data_preview](assets/app_screenshots/app_gui_dark_mode_columns_mapped.png?raw=true)
+
+##### **Copying Data From Source File to Template Destination File After Columns Mapping**
+![app_gui_dark_mode_coppy_mapped_columns](assets/app_screenshots/app_gui_dark_mode_coppy_mapped_columns.png?raw=true)
+
+##### **Choosing a Directory to Save the Template File With Copied Data**
+![app_gui_dark_mode_saving_the_file_with_mapped_columns](assets/app_screenshots/app_gui_dark_mode_saving_the_file_with_mapped_columns.png?raw=true)
+
+##### **Data Copied and Saved With Success**
+![app_gui_dark_mode_data_copied_sucess](assets/app_screenshots/app_gui_dark_mode_data_copied_sucess.png?raw=true)
+
+##### **History File For Mapped Columns**
+![history_file_for_mapped_columns](assets/app_screenshots/history_file_for_mapped_columns.png?raw=true)
+
+##### **Used Source File**
+![used_source_file](assets/app_screenshots/used_source_file.png?raw=true)
+
+##### **Used Template Destination File**
+![used_destination_file_template](assets/app_screenshots/used_destination_file_template.png?raw=true)
+
+##### **Template Destination File After Copy and Saving the Mapped Columns**
+![destination_file_template_updated](assets/app_screenshots/destination_file_template_updated.png?raw=true)
+
 
 ## 🚀 Installation
 
