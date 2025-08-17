@@ -8,10 +8,10 @@ A user-friendly Python GUI application for mapping and transferring data between
 
 ### **Screenshots**
 
-###### **Light Mode**
+##### **Light Mode**
 ![app_gui_light_mode](assets/app_screenshots/app_gui_light_mode.png?raw=true)
 
-###### **Dark Mode**
+##### **Dark Mode**
 ![app_gui_dark_mode](assets/app_screenshots/app_gui_dark_mode.png?raw=true)
 
 ![app_gui_dark_mode_in_use](assets/app_screenshots/app_gui_dark_mode_in_use.png?raw=true)
