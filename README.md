@@ -6,6 +6,38 @@ A modern, user-friendly Python GUI application for mapping and transferring data
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
 
+### **Screenshots**
+
+![app_gui_light_mode](assets/screenshots/app_gui_light_mode.png?raw=true)
+
+![app_gui_dark_mode](assets/screenshots/app_gui_dark_mode.png?raw=true)
+
+![app_gui_dark_mode_in_use](assets/screenshots/app_gui_dark_mode_in_use.png?raw=true)
+
+![app_gui_dark_mode_column_mapping](assets/screenshots/app_gui_dark_mode_column_mapping.png?raw=true)
+
+![app_gui_dark_mode_mapping_from_history](assets/screenshots/app_gui_dark_mode_mapping_from_history.png?raw=true)
+
+![app_gui_dark_mode_mapping_from_history](assets/screenshots/app_gui_dark_mode_mapping_from_history.png?raw=true)
+
+![app_gui_dark_mode_columns_mapped](assets/screenshots/app_gui_dark_mode_columns_mapped.png?raw=true)
+
+![app_gui_dark_mode_data_preview](assets/screenshots/app_gui_dark_mode_columns_mapped.png?raw=true)
+
+![app_gui_dark_mode_coppy_mapped_columns](assets/screenshots/app_gui_dark_mode_coppy_mapped_columns.png?raw=true)
+
+![app_gui_dark_mode_saving_the_file_with_mapped_columns](assets/screenshots/app_gui_dark_mode_saving_the_file_with_mapped_columns.png?raw=true)
+
+![app_gui_dark_mode_data_copied_sucess](assets/screenshots/app_gui_dark_mode_data_copied_sucess.png?raw=true)
+
+![history_file_for_mapped_columns](assets/screenshots/history_file_for_mapped_columns.png?raw=true)
+
+![used_source_file](assets/screenshots/used_source_file.png?raw=true)
+
+![used_destination_file_template](assets/screenshots/used_destination_file_template.png?raw=true)
+
+![destination_file_template_updated](assets/screenshots/destination_file_template_updated.png?raw=true)
+
 ## ✨ Features
 
 ### 🎨 **Modern User Interface**
