@@ -28,7 +28,7 @@ class Config:
     APP_NAME = "Excel Column Mapper"
     APP_VERSION = "1.0"
     WINDOW_TITLE = f"{APP_NAME} v{APP_VERSION}"
-    WINDOW_SIZE = "1400x800"
+    WINDOW_SIZE = "1240x600"
     WINDOW_MIN_SIZE = (1000, 600)
     
     # Directories
