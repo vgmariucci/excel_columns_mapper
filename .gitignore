@@ -142,5 +142,6 @@ utils/
 www/
 data/
 log/
+output/
 assets/screenshots/
 .csv
